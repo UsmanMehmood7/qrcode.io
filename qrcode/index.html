@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    #bar {
+      position: relative;
+      margin-top: 50px;
+
+      top: 25%;
+      margin-left: 450px;
+
+      width: 190px;
+      border: 60px;
+      background-color: white;
+      padding: 35px;
+      height: 400px;
+      font-family: "outfit";
+    }
+    #imag {
+      position: absolute;
+
+      height: 230px;
+      margin-left: 11px;
+      border-radius: 10px;
+
+      top: 20px;
+      right: 15px;
+    }
+    #bottom {
+      color: black;
+      position: absolute;
+      top: 330px;
+      padding-right: 25px;
+      text-align: center;
+      font-size: 13px;
+
+      opacity: 0.5;
+    }
+    .change {
+      position: absolute;
+      top: 274px;
+      padding-right: 27px;
+      text-align: center;
+      font-size: 17px;
+    }
+    #back {
+      background-color: rgb(213, 225, 239);
+      position: relative;
+      border-radius: 30px;
+      bottom: 19px;
+
+      height: 40%;
+      margin-left: 20px;
+      width: 65%;
+      border: 60px;
+      height: 700px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    @media screen and (min-width: 390px) {
+      #bar {
+        left: 7%;
+      }
+      #back {
+        left: 90px;
+      }
+    }
+  </style>
+  <body>
+    <div id="back">
+      <div id="bar">
+        <img id="imag" src="./qrimage.png" />
+        <div>
+          <a class="change">
+            Improve your front-end skills by building projects</a
+          >
+
+          <div id="bottom">
+            <p>
+              scan the QR code to visit frontend mentor and take your coding
+              skill to next level
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
